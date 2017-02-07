@@ -28,7 +28,7 @@ ALTER TABLE `categories`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 
 
-CREATE TABLE `vitrine_consultoria_test`.`categories_products` (
+CREATE TABLE `categories_products` (
   `id` INT NOT NULL AUTO_INCREMENT ,
   `category_id` INT NOT NULL COMMENT 'id da tabela categories' ,
   `product_id` INT NOT NULL COMMENT 'SKU do produto' ,
